@@ -1,0 +1,123 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Device:R_US" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (id 0) (at 2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "R_US" (id 1) (at -2.54 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 1.016 -0.254 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor, US symbol" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_US_0_1"
+        (polyline
+          (pts
+            (xy 0 -2.286)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.286)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -0.762)
+            (xy 1.016 -1.143)
+            (xy 0 -1.524)
+            (xy -1.016 -1.905)
+            (xy 0 -2.286)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0.762)
+            (xy 1.016 0.381)
+            (xy 0 0)
+            (xy -1.016 -0.381)
+            (xy 0 -0.762)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.286)
+            (xy 1.016 1.905)
+            (xy 0 1.524)
+            (xy -1.016 1.143)
+            (xy 0 0.762)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "R_US_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "Device:R_US") (at 124.46 87.63 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 759788bd-3cb9-4d38-b58c-5cb10b7dca6b)
+    (property "Reference" "R?" (id 0) (at 127 86.3599 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "R_US" (id 1) (at 127 88.8999 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 125.476 87.884 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 124.46 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c71f56c1-5b7c-4373-9716-fffac482104c))
+    (pin "2" (uuid 1ab71a3c-340b-469a-ada5-4f87f0b7b2fa))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/759788bd-3cb9-4d38-b58c-5cb10b7dca6b"
+      (reference "R?") (unit 1) (value "R_US") (footprint "")
+    )
+  )
+)
